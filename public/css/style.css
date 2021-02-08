@@ -1,0 +1,108 @@
+body {
+    background-color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logarUsuario {
+    background-color: #243c5e21;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    max-width: 600px;
+    color: #e57525;
+    box-shadow: 3px 5px 3px black;
+}
+
+#logoGrowdev {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#logoGrowdev1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+
+#cadastrarUsuario {
+    background-color: #243c5e21;
+    color: #e57525;
+    padding: 50px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 3px 5px 3px black;
+
+}
+
+#lista {
+    background-color: #243c5efd;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 5px 3px black;
+
+}
+
+#lista h1 {
+    color: #e57525;
+
+}
+#cadastrarAluno {
+    background-color: #243c5e21;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #e57525;
+    box-shadow: 3px 5px 3px black;
+
+
+}
+
+#lista h1 {
+    text-align: center;
+}
+
+
+   
+
+
+.excluirGrowdever:hover {
+    color:red;
+
+}
+
+#botoes-lista {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+
+}
+
+#botoes-lista button {
+    width: 300px;
+
+}
+
+#botoes-growdevers {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+   
+
+}
+
+#botoes-growdevers button {
+    width: 300px;
+}

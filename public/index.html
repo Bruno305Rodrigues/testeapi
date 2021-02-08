@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>API Growdev</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="logarUsuario">
+      <div id="logoGrowdev"> <img src="https://www.growdev.com.br/assets/images/logo-dark.png" alt="">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Usuário</label>
+        <input type="text" class="form-control" id="username" aria-describedby="emailHelp"
+          placeholder="Nome do usuario">
+        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Senha</label>
+        <input type="password" class="form-control" id="password" placeholder="Senha">
+      </div>
+
+      <button type="button" id="logar" class="btn btn-primary">Enviar</button>
+      <hr>
+      <div class="form-group">
+        Ainda não tem cadastro?<a href="#" id="cadastrar"> Cadastre-se</a>
+      </div>
+
+    </div>
+
+    <div id="cadastrarUsuario" style="display: none;">
+      <div id="logoGrowdev"> <img src="https://www.growdev.com.br/assets/images/logo-dark.png" alt="">
+      </div>
+      <div class="form-group">
+        <label for="">Nome</label>
+        <input class="form-control" id="nomeUsuario" type="text" placeholder="Digite o nome do usuario">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Senha</label>
+        <input type="password" class="form-control" id="password2" placeholder="Senha">
+      </div>
+      <div class="form-group">
+        <label for="">Tipo</label>
+        <select class="form-control" id="tipo">
+          <option>Admin</option>
+          <option>Growdever</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="">Username</label>
+        <input class="form-control" type="text" id="user" placeholder="Digite o uername do usuário">
+        
+      </div>
+
+
+      <nav id="botoes-lista">
+      <button type="submit" id="realizarCadastro" class="btn btn-primary ">Cadastrar</button>
+      <button type="submit" id="sair-tela-user" class="btn btn-primary">Sair</button>
+
+      </nav>
+      <hr>
+
+
+
+    </div>
+
+    <div id="lista" style="display: none;">
+      <div id="logoGrowdev1"> <img src="https://www.growdev.com.br/assets/images/logo-dark.png" alt="">
+      </div>
+      <h1>Lista de Growdevers</h1>
+      <nav id="botoes-lista">
+        <button type="submit" id="cadastrarGrowdever" class="btn btn-primary">Cadastrar Growdever</button>
+        <button type="submit" id="sair" class="btn btn-primary">Sair</button>
+      </nav>
+
+
+
+      <ul class="list-group" id="listaGrowdevers">
+
+
+      </ul>
+
+
+    </div>
+
+    <div id="cadastrarAluno" style="display: none;">
+      <div id="logoGrowdev"> <img src="https://www.growdev.com.br/assets/images/logo-dark.png" alt="">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" id="email" type="text" placeholder="Digite o email do usuario">
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefone</label>
+        <input class="form-control" id="phone" type="text" placeholder="Digite o telefone do usuario">
+      </div>
+      <div class="form-group">
+        <label for="program">Programa</label>
+        <input class="form-control" id="program" type="text" placeholder="Digite o programa do usuario">
+      </div>
+
+
+      <hr>
+      <nav id="botoes-growdevers">
+        <button type="button" id="bt-cadastro" class="btn btn-primary ">Cadastrar</button>
+
+        <button type="submit" id="sair-telaCadastro" class="btn btn-primary">Sair</button>
+      </nav>
+
+
+    </div>
+  </div>
+
+
+  <script src="./bundle.js"></script>
+  <script src="./js/jquery.js"></script>
+
+  <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
